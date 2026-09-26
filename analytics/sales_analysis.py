@@ -136,19 +136,20 @@ def get_discount_vs_profit_analysis(df):
     Returns:
         DataFrame with discount analysis
     """
+    df = df.copy()
     df['discount_category'] = pd.cut(df['discount'], 
                                      bins=[-0.01, 0, 0.1, 0.2, 1.0],
                                      labels=['No Discount', 'Low (0-10%)', 'Medium (10-20%)', 'High (>20%)'])
     
-    discount_data = df.groupby('discount_category').agg({
+    discount_data = df.groupby('discount_category', observed=False).agg({
         'sales': 'sum',
         'profit': 'sum',
         'order_id': 'count'
     }).reset_index()
     
-    discount_data['profit_margin'] = (discount_data['profit'] / discount_data['sales']) * 100
+    discount_data.columns = ['discount_category', 'revenue', 'profit', 'order_count']
+    discount_data['profit_margin'] = (discount_data['profit'] / discount_data['revenue']) * 100
     discount_data['avg_profit_per_order'] = discount_data['profit'] / discount_data['order_count']
-    discount_data.columns = ['discount_category', 'revenue', 'profit', 'order_count', 'profit_margin', 'avg_profit_per_order']
     
     return discount_data
 
