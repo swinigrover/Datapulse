@@ -1,0 +1,201 @@
+customer_id,customer_name,segment,city,state,region
+CUST-0001,Customer 1,Home Office,New York,NY,North
+CUST-0002,Customer 2,Home Office,Philadelphia,PA,East
+CUST-0003,Customer 3,Consumer,Houston,TX,South
+CUST-0004,Customer 4,Consumer,Denver,CO,Central
+CUST-0005,Customer 5,Home Office,Los Angeles,CA,West
+CUST-0006,Customer 6,Consumer,New York,NY,North
+CUST-0007,Customer 7,Consumer,Minneapolis,MN,Central
+CUST-0008,Customer 8,Consumer,Denver,CO,Central
+CUST-0009,Customer 9,Home Office,Kansas City,MO,Central
+CUST-0010,Customer 10,Consumer,Seattle,WA,West
+CUST-0011,Customer 11,Corporate,New York,NY,North
+CUST-0012,Customer 12,Home Office,San Francisco,CA,West
+CUST-0013,Customer 13,Corporate,Atlanta,GA,South
+CUST-0014,Customer 14,Corporate,New York,NY,North
+CUST-0015,Customer 15,Corporate,Boston,MA,North
+CUST-0016,Customer 16,Corporate,Kansas City,MO,Central
+CUST-0017,Customer 17,Consumer,Seattle,WA,West
+CUST-0018,Customer 18,Consumer,Los Angeles,CA,West
+CUST-0019,Customer 19,Home Office,Baltimore,MD,East
+CUST-0020,Customer 20,Home Office,Baltimore,MD,East
+CUST-0021,Customer 21,Consumer,New York,NY,North
+CUST-0022,Customer 22,Home Office,Dallas,TX,South
+CUST-0023,Customer 23,Consumer,Atlanta,GA,South
+CUST-0024,Customer 24,Corporate,Washington DC,DC,East
+CUST-0025,Customer 25,Home Office,Philadelphia,PA,East
+CUST-0026,Customer 26,Corporate,Philadelphia,PA,East
+CUST-0027,Customer 27,Home Office,Baltimore,MD,East
+CUST-0028,Customer 28,Home Office,Chicago,IL,North
+CUST-0029,Customer 29,Home Office,Houston,TX,South
+CUST-0030,Customer 30,Home Office,Atlanta,GA,South
+CUST-0031,Customer 31,Corporate,San Francisco,CA,West
+CUST-0032,Customer 32,Home Office,Denver,CO,Central
+CUST-0033,Customer 33,Home Office,Philadelphia,PA,East
+CUST-0034,Customer 34,Consumer,Boston,MA,North
+CUST-0035,Customer 35,Corporate,Philadelphia,PA,East
+CUST-0036,Customer 36,Consumer,Minneapolis,MN,Central
+CUST-0037,Customer 37,Corporate,Houston,TX,South
+CUST-0038,Customer 38,Corporate,Seattle,WA,West
+CUST-0039,Customer 39,Corporate,Dallas,TX,South
+CUST-0040,Customer 40,Consumer,Houston,TX,South
+CUST-0041,Customer 41,Home Office,Kansas City,MO,Central
+CUST-0042,Customer 42,Home Office,Kansas City,MO,Central
+CUST-0043,Customer 43,Home Office,San Francisco,CA,West
+CUST-0044,Customer 44,Consumer,Houston,TX,South
+CUST-0045,Customer 45,Corporate,New York,NY,North
+CUST-0046,Customer 46,Consumer,Houston,TX,South
+CUST-0047,Customer 47,Consumer,Seattle,WA,West
+CUST-0048,Customer 48,Consumer,San Francisco,CA,West
+CUST-0049,Customer 49,Home Office,Seattle,WA,West
+CUST-0050,Customer 50,Corporate,Denver,CO,Central
+CUST-0051,Customer 51,Home Office,Chicago,IL,North
+CUST-0052,Customer 52,Home Office,Baltimore,MD,East
+CUST-0053,Customer 53,Corporate,Boston,MA,North
+CUST-0054,Customer 54,Corporate,Dallas,TX,South
+CUST-0055,Customer 55,Consumer,Baltimore,MD,East
+CUST-0056,Customer 56,Consumer,Denver,CO,Central
+CUST-0057,Customer 57,Home Office,Baltimore,MD,East
+CUST-0058,Customer 58,Home Office,Denver,CO,Central
+CUST-0059,Customer 59,Consumer,Philadelphia,PA,East
+CUST-0060,Customer 60,Home Office,Denver,CO,Central
+CUST-0061,Customer 61,Home Office,Washington DC,DC,East
+CUST-0062,Customer 62,Consumer,Boston,MA,North
+CUST-0063,Customer 63,Corporate,Atlanta,GA,South
+CUST-0064,Customer 64,Consumer,Denver,CO,Central
+CUST-0065,Customer 65,Consumer,Los Angeles,CA,West
+CUST-0066,Customer 66,Home Office,Atlanta,GA,South
+CUST-0067,Customer 67,Home Office,Seattle,WA,West
+CUST-0068,Customer 68,Consumer,Baltimore,MD,East
+CUST-0069,Customer 69,Home Office,Los Angeles,CA,West
+CUST-0070,Customer 70,Home Office,Houston,TX,South
+CUST-0071,Customer 71,Corporate,Seattle,WA,West
+CUST-0072,Customer 72,Home Office,Washington DC,DC,East
+CUST-0073,Customer 73,Home Office,Los Angeles,CA,West
+CUST-0074,Customer 74,Consumer,Atlanta,GA,South
+CUST-0075,Customer 75,Corporate,Chicago,IL,North
+CUST-0076,Customer 76,Home Office,Houston,TX,South
+CUST-0077,Customer 77,Consumer,New York,NY,North
+CUST-0078,Customer 78,Home Office,New York,NY,North
+CUST-0079,Customer 79,Consumer,Boston,MA,North
+CUST-0080,Customer 80,Consumer,Denver,CO,Central
+CUST-0081,Customer 81,Corporate,Los Angeles,CA,West
+CUST-0082,Customer 82,Home Office,Houston,TX,South
+CUST-0083,Customer 83,Home Office,Kansas City,MO,Central
+CUST-0084,Customer 84,Consumer,San Francisco,CA,West
+CUST-0085,Customer 85,Consumer,New York,NY,North
+CUST-0086,Customer 86,Home Office,San Francisco,CA,West
+CUST-0087,Customer 87,Corporate,San Francisco,CA,West
+CUST-0088,Customer 88,Home Office,Chicago,IL,North
+CUST-0089,Customer 89,Home Office,New York,NY,North
+CUST-0090,Customer 90,Corporate,Philadelphia,PA,East
+CUST-0091,Customer 91,Consumer,Atlanta,GA,South
+CUST-0092,Customer 92,Home Office,Los Angeles,CA,West
+CUST-0093,Customer 93,Corporate,Dallas,TX,South
+CUST-0094,Customer 94,Corporate,Atlanta,GA,South
+CUST-0095,Customer 95,Corporate,Denver,CO,Central
+CUST-0096,Customer 96,Consumer,Denver,CO,Central
+CUST-0097,Customer 97,Consumer,Atlanta,GA,South
+CUST-0098,Customer 98,Corporate,San Francisco,CA,West
+CUST-0099,Customer 99,Consumer,Los Angeles,CA,West
+CUST-0100,Customer 100,Consumer,Los Angeles,CA,West
+CUST-0101,Customer 101,Corporate,Washington DC,DC,East
+CUST-0102,Customer 102,Corporate,Seattle,WA,West
+CUST-0103,Customer 103,Home Office,Minneapolis,MN,Central
+CUST-0104,Customer 104,Home Office,Los Angeles,CA,West
+CUST-0105,Customer 105,Consumer,Philadelphia,PA,East
+CUST-0106,Customer 106,Consumer,Minneapolis,MN,Central
+CUST-0107,Customer 107,Home Office,Chicago,IL,North
+CUST-0108,Customer 108,Corporate,New York,NY,North
+CUST-0109,Customer 109,Home Office,Seattle,WA,West
+CUST-0110,Customer 110,Home Office,Atlanta,GA,South
+CUST-0111,Customer 111,Home Office,New York,NY,North
+CUST-0112,Customer 112,Consumer,Denver,CO,Central
+CUST-0113,Customer 113,Home Office,Dallas,TX,South
+CUST-0114,Customer 114,Consumer,Denver,CO,Central
+CUST-0115,Customer 115,Home Office,Denver,CO,Central
+CUST-0116,Customer 116,Home Office,Boston,MA,North
+CUST-0117,Customer 117,Home Office,Minneapolis,MN,Central
+CUST-0118,Customer 118,Home Office,Washington DC,DC,East
+CUST-0119,Customer 119,Consumer,Philadelphia,PA,East
+CUST-0120,Customer 120,Corporate,Los Angeles,CA,West
+CUST-0121,Customer 121,Home Office,Washington DC,DC,East
+CUST-0122,Customer 122,Corporate,New York,NY,North
+CUST-0123,Customer 123,Corporate,Minneapolis,MN,Central
+CUST-0124,Customer 124,Consumer,Chicago,IL,North
+CUST-0125,Customer 125,Consumer,Kansas City,MO,Central
+CUST-0126,Customer 126,Consumer,Philadelphia,PA,East
+CUST-0127,Customer 127,Consumer,Washington DC,DC,East
+CUST-0128,Customer 128,Consumer,Seattle,WA,West
+CUST-0129,Customer 129,Home Office,Baltimore,MD,East
+CUST-0130,Customer 130,Home Office,Denver,CO,Central
+CUST-0131,Customer 131,Home Office,Kansas City,MO,Central
+CUST-0132,Customer 132,Home Office,New York,NY,North
+CUST-0133,Customer 133,Corporate,New York,NY,North
+CUST-0134,Customer 134,Home Office,Denver,CO,Central
+CUST-0135,Customer 135,Corporate,Baltimore,MD,East
+CUST-0136,Customer 136,Consumer,Philadelphia,PA,East
+CUST-0137,Customer 137,Home Office,Baltimore,MD,East
+CUST-0138,Customer 138,Corporate,Philadelphia,PA,East
+CUST-0139,Customer 139,Consumer,San Francisco,CA,West
+CUST-0140,Customer 140,Consumer,Boston,MA,North
+CUST-0141,Customer 141,Consumer,Philadelphia,PA,East
+CUST-0142,Customer 142,Home Office,Seattle,WA,West
+CUST-0143,Customer 143,Home Office,Seattle,WA,West
+CUST-0144,Customer 144,Consumer,New York,NY,North
+CUST-0145,Customer 145,Home Office,Houston,TX,South
+CUST-0146,Customer 146,Consumer,Baltimore,MD,East
+CUST-0147,Customer 147,Home Office,Dallas,TX,South
+CUST-0148,Customer 148,Consumer,Boston,MA,North
+CUST-0149,Customer 149,Corporate,Boston,MA,North
+CUST-0150,Customer 150,Consumer,Houston,TX,South
+CUST-0151,Customer 151,Consumer,Baltimore,MD,East
+CUST-0152,Customer 152,Corporate,Minneapolis,MN,Central
+CUST-0153,Customer 153,Consumer,Atlanta,GA,South
+CUST-0154,Customer 154,Consumer,Los Angeles,CA,West
+CUST-0155,Customer 155,Consumer,Washington DC,DC,East
+CUST-0156,Customer 156,Home Office,Dallas,TX,South
+CUST-0157,Customer 157,Consumer,Boston,MA,North
+CUST-0158,Customer 158,Consumer,Los Angeles,CA,West
+CUST-0159,Customer 159,Consumer,San Francisco,CA,West
+CUST-0160,Customer 160,Corporate,Atlanta,GA,South
+CUST-0161,Customer 161,Consumer,Dallas,TX,South
+CUST-0162,Customer 162,Corporate,Philadelphia,PA,East
+CUST-0163,Customer 163,Corporate,Baltimore,MD,East
+CUST-0164,Customer 164,Home Office,Seattle,WA,West
+CUST-0165,Customer 165,Home Office,Philadelphia,PA,East
+CUST-0166,Customer 166,Consumer,Philadelphia,PA,East
+CUST-0167,Customer 167,Home Office,Philadelphia,PA,East
+CUST-0168,Customer 168,Consumer,Kansas City,MO,Central
+CUST-0169,Customer 169,Corporate,Washington DC,DC,East
+CUST-0170,Customer 170,Home Office,Denver,CO,Central
+CUST-0171,Customer 171,Corporate,Denver,CO,Central
+CUST-0172,Customer 172,Corporate,Chicago,IL,North
+CUST-0173,Customer 173,Corporate,Chicago,IL,North
+CUST-0174,Customer 174,Home Office,Dallas,TX,South
+CUST-0175,Customer 175,Corporate,Chicago,IL,North
+CUST-0176,Customer 176,Corporate,Kansas City,MO,Central
+CUST-0177,Customer 177,Home Office,Chicago,IL,North
+CUST-0178,Customer 178,Corporate,Kansas City,MO,Central
+CUST-0179,Customer 179,Home Office,San Francisco,CA,West
+CUST-0180,Customer 180,Corporate,Baltimore,MD,East
+CUST-0181,Customer 181,Consumer,Dallas,TX,South
+CUST-0182,Customer 182,Home Office,Seattle,WA,West
+CUST-0183,Customer 183,Home Office,Houston,TX,South
+CUST-0184,Customer 184,Home Office,Washington DC,DC,East
+CUST-0185,Customer 185,Home Office,Boston,MA,North
+CUST-0186,Customer 186,Corporate,Dallas,TX,South
+CUST-0187,Customer 187,Home Office,Minneapolis,MN,Central
+CUST-0188,Customer 188,Corporate,San Francisco,CA,West
+CUST-0189,Customer 189,Corporate,Houston,TX,South
+CUST-0190,Customer 190,Corporate,Houston,TX,South
+CUST-0191,Customer 191,Consumer,Baltimore,MD,East
+CUST-0192,Customer 192,Home Office,Kansas City,MO,Central
+CUST-0193,Customer 193,Consumer,Houston,TX,South
+CUST-0194,Customer 194,Corporate,Atlanta,GA,South
+CUST-0195,Customer 195,Consumer,New York,NY,North
+CUST-0196,Customer 196,Consumer,Seattle,WA,West
+CUST-0197,Customer 197,Consumer,San Francisco,CA,West
+CUST-0198,Customer 198,Home Office,Denver,CO,Central
+CUST-0199,Customer 199,Home Office,San Francisco,CA,West
+CUST-0200,Customer 200,Corporate,Atlanta,GA,South

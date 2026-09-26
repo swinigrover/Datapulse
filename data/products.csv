@@ -1,0 +1,101 @@
+product_id,product_name,category,sub_category,unit_price
+PROD-0001,Paper Model 49,Office Supplies,Paper,431.62
+PROD-0002,Monitors Model 15,Technology,Monitors,96.18
+PROD-0003,Appliances Model 30,Office Supplies,Appliances,34.61
+PROD-0004,Phones Model 30,Technology,Phones,75.34
+PROD-0005,Furnishings Model 36,Furniture,Furnishings,301.77
+PROD-0006,Furnishings Model 47,Furniture,Furnishings,447.09
+PROD-0007,Furnishings Model 29,Furniture,Furnishings,449.63
+PROD-0008,Storage Model 29,Office Supplies,Storage,137.0
+PROD-0009,Accessories Model 50,Technology,Accessories,391.06
+PROD-0010,Tables Model 18,Furniture,Tables,225.54
+PROD-0011,Art Model 16,Office Supplies,Art,143.14
+PROD-0012,Furnishings Model 6,Furniture,Furnishings,77.8
+PROD-0013,Monitors Model 45,Technology,Monitors,84.87
+PROD-0014,Phones Model 27,Technology,Phones,209.72
+PROD-0015,Storage Model 27,Office Supplies,Storage,40.51
+PROD-0016,Desks Model 50,Furniture,Desks,296.2
+PROD-0017,Paper Model 49,Office Supplies,Paper,292.09
+PROD-0018,Chairs Model 23,Furniture,Chairs,156.32
+PROD-0019,Desks Model 35,Furniture,Desks,376.28
+PROD-0020,Appliances Model 15,Office Supplies,Appliances,249.23
+PROD-0021,Desks Model 32,Furniture,Desks,24.22
+PROD-0022,Desks Model 47,Furniture,Desks,90.87
+PROD-0023,Tables Model 40,Furniture,Tables,271.72
+PROD-0024,Furnishings Model 37,Furniture,Furnishings,334.87
+PROD-0025,Monitors Model 9,Technology,Monitors,434.76
+PROD-0026,Phones Model 17,Technology,Phones,195.76
+PROD-0027,Monitors Model 21,Technology,Monitors,175.38
+PROD-0028,Bookcases Model 49,Furniture,Bookcases,476.09
+PROD-0029,Bookcases Model 6,Furniture,Bookcases,240.45
+PROD-0030,Appliances Model 4,Office Supplies,Appliances,499.95
+PROD-0031,Tables Model 42,Furniture,Tables,43.62
+PROD-0032,Paper Model 49,Office Supplies,Paper,25.2
+PROD-0033,Laptops Model 2,Technology,Laptops,314.45
+PROD-0034,Laptops Model 31,Technology,Laptops,338.03
+PROD-0035,Binders Model 30,Office Supplies,Binders,352.74
+PROD-0036,Tables Model 39,Furniture,Tables,307.55
+PROD-0037,Paper Model 50,Office Supplies,Paper,411.46
+PROD-0038,Chairs Model 38,Furniture,Chairs,22.58
+PROD-0039,Furnishings Model 44,Furniture,Furnishings,454.93
+PROD-0040,Desks Model 46,Furniture,Desks,107.18
+PROD-0041,Binders Model 7,Office Supplies,Binders,351.62
+PROD-0042,Furnishings Model 8,Furniture,Furnishings,400.15
+PROD-0043,Paper Model 23,Office Supplies,Paper,271.05
+PROD-0044,Art Model 5,Office Supplies,Art,257.92
+PROD-0045,Chairs Model 27,Furniture,Chairs,412.94
+PROD-0046,Monitors Model 24,Technology,Monitors,321.44
+PROD-0047,Tables Model 28,Furniture,Tables,96.31
+PROD-0048,Art Model 40,Office Supplies,Art,406.02
+PROD-0049,Storage Model 30,Office Supplies,Storage,223.43
+PROD-0050,Appliances Model 18,Office Supplies,Appliances,167.93
+PROD-0051,Phones Model 18,Technology,Phones,442.0
+PROD-0052,Monitors Model 37,Technology,Monitors,309.06
+PROD-0053,Bookcases Model 2,Furniture,Bookcases,252.21
+PROD-0054,Tables Model 32,Furniture,Tables,113.94
+PROD-0055,Bookcases Model 18,Furniture,Bookcases,441.36
+PROD-0056,Art Model 36,Office Supplies,Art,14.97
+PROD-0057,Phones Model 16,Technology,Phones,362.84
+PROD-0058,Furnishings Model 49,Furniture,Furnishings,127.76
+PROD-0059,Desks Model 29,Furniture,Desks,398.54
+PROD-0060,Accessories Model 15,Technology,Accessories,208.16
+PROD-0061,Accessories Model 43,Technology,Accessories,294.96
+PROD-0062,Furnishings Model 34,Furniture,Furnishings,178.44
+PROD-0063,Appliances Model 22,Office Supplies,Appliances,182.39
+PROD-0064,Bookcases Model 20,Furniture,Bookcases,133.19
+PROD-0065,Laptops Model 21,Technology,Laptops,68.58
+PROD-0066,Binders Model 13,Office Supplies,Binders,116.03
+PROD-0067,Bookcases Model 47,Furniture,Bookcases,298.9
+PROD-0068,Appliances Model 19,Office Supplies,Appliances,490.45
+PROD-0069,Accessories Model 15,Technology,Accessories,186.83
+PROD-0070,Chairs Model 46,Furniture,Chairs,271.73
+PROD-0071,Chairs Model 4,Furniture,Chairs,281.15
+PROD-0072,Binders Model 41,Office Supplies,Binders,435.55
+PROD-0073,Chairs Model 1,Furniture,Chairs,291.29
+PROD-0074,Desks Model 29,Furniture,Desks,176.95
+PROD-0075,Accessories Model 31,Technology,Accessories,65.9
+PROD-0076,Monitors Model 32,Technology,Monitors,46.3
+PROD-0077,Paper Model 10,Office Supplies,Paper,83.11
+PROD-0078,Art Model 6,Office Supplies,Art,497.02
+PROD-0079,Printers Model 49,Technology,Printers,213.93
+PROD-0080,Appliances Model 15,Office Supplies,Appliances,390.09
+PROD-0081,Desks Model 29,Furniture,Desks,155.7
+PROD-0082,Storage Model 20,Office Supplies,Storage,288.63
+PROD-0083,Printers Model 48,Technology,Printers,58.62
+PROD-0084,Laptops Model 17,Technology,Laptops,333.61
+PROD-0085,Laptops Model 12,Technology,Laptops,280.48
+PROD-0086,Phones Model 27,Technology,Phones,230.75
+PROD-0087,Storage Model 19,Office Supplies,Storage,25.99
+PROD-0088,Bookcases Model 45,Furniture,Bookcases,431.21
+PROD-0089,Laptops Model 17,Technology,Laptops,396.04
+PROD-0090,Appliances Model 43,Office Supplies,Appliances,403.91
+PROD-0091,Monitors Model 8,Technology,Monitors,276.84
+PROD-0092,Binders Model 18,Office Supplies,Binders,415.05
+PROD-0093,Phones Model 11,Technology,Phones,398.39
+PROD-0094,Appliances Model 19,Office Supplies,Appliances,225.19
+PROD-0095,Bookcases Model 45,Furniture,Bookcases,207.23
+PROD-0096,Furnishings Model 35,Furniture,Furnishings,251.96
+PROD-0097,Printers Model 3,Technology,Printers,445.82
+PROD-0098,Art Model 39,Office Supplies,Art,132.68
+PROD-0099,Laptops Model 44,Technology,Laptops,419.62
+PROD-0100,Appliances Model 2,Office Supplies,Appliances,499.79
