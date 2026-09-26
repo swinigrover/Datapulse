@@ -3,8 +3,16 @@ SQL Insights Page for DataPulse
 Demonstrates SQL queries and their business insights
 """
 
+import sys
+import os
+
+_project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if _project_root not in sys.path:
+    sys.path.insert(0, _project_root)
+
 import streamlit as st
 import pandas as pd
+from common_ui import run_page
 
 
 def render(db, filters):
@@ -229,12 +237,17 @@ ORDER BY total_revenue DESC;
         if i % 3 == 0:
             with col1:
                 st.markdown(f"**{concept}**")
-                st.markdown(description, font_size="small")
+                st.caption(description)
         elif i % 3 == 1:
             with col2:
                 st.markdown(f"**{concept}**")
-                st.markdown(description, font_size="small")
+                st.caption(description)
         else:
             with col3:
                 st.markdown(f"**{concept}**")
-                st.markdown(description, font_size="small")
+                st.caption(description)
+
+
+if __name__ == "__main__":
+    run_page(render, title="SQL Insights", icon="💻")
+

@@ -3,8 +3,16 @@ Business Recommendations Page for DataPulse
 Automatically generates business insights and recommendations
 """
 
+import sys
+import os
+
+_project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if _project_root not in sys.path:
+    sys.path.insert(0, _project_root)
+
 import streamlit as st
 import pandas as pd
+from common_ui import run_page
 from analytics.sales_analysis import (
     get_sales_by_region,
     get_sales_by_category,
@@ -250,3 +258,8 @@ def render(db, filters):
                 }),
                 use_container_width=True
             )
+
+
+if __name__ == "__main__":
+    run_page(render, title="Business Recommendations", icon="💡")
+

@@ -3,8 +3,16 @@ Executive Overview Page for DataPulse
 Displays key performance indicators and high-level metrics
 """
 
+import sys
+import os
+
+_project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if _project_root not in sys.path:
+    sys.path.insert(0, _project_root)
+
 import streamlit as st
 import pandas as pd
+from common_ui import run_page
 import plotly.express as px
 import plotly.graph_objects as go
 from analytics.sales_analysis import (
@@ -174,3 +182,8 @@ def render(db, filters):
                 }),
                 use_container_width=True
             )
+
+
+if __name__ == "__main__":
+    run_page(render, title="Executive Overview", icon="🏠")
+

@@ -3,8 +3,16 @@ Customer Analytics Page for DataPulse
 Customer segmentation and behavior analysis
 """
 
+import sys
+import os
+
+_project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if _project_root not in sys.path:
+    sys.path.insert(0, _project_root)
+
 import streamlit as st
 import pandas as pd
+from common_ui import run_page
 from analytics.customer_analysis import (
     get_customer_segmentation,
     get_top_customers,
@@ -152,3 +160,8 @@ def render(db, filters):
             }),
             use_container_width=True
         )
+
+
+if __name__ == "__main__":
+    run_page(render, title="Customer Analytics", icon="👥")
+

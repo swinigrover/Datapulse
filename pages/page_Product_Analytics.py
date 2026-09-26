@@ -3,8 +3,16 @@ Product Analytics Page for DataPulse
 Product performance and profitability analysis
 """
 
+import sys
+import os
+
+_project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if _project_root not in sys.path:
+    sys.path.insert(0, _project_root)
+
 import streamlit as st
 import pandas as pd
+from common_ui import run_page
 from analytics.product_analysis import (
     get_best_selling_products,
     get_most_profitable_products,
@@ -178,3 +186,8 @@ def render(db, filters):
         )
     else:
         st.success("No products found with high revenue and low profit margin")
+
+
+if __name__ == "__main__":
+    run_page(render, title="Product Analytics", icon="📦")
+
