@@ -15,23 +15,16 @@ from database.database import get_database_manager, initialize_database
 
 
 def load_custom_css():
-    """Load styling for consistent look across pages"""
+    """Load styling for consistent look across pages that respects both light and dark themes"""
     st.markdown("""
     <style>
-    .main {
-        background-color: #f5f5f5;
-    }
-    .stApp {
-        background-color: #f5f5f5;
-    }
-    h1, h2, h3 {
-        color: #1f77b4;
-    }
     .metric-card {
-        background-color: white;
+        background-color: var(--secondary-background-color, rgba(128, 128, 128, 0.05));
+        color: var(--text-color);
         padding: 20px;
         border-radius: 10px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        border: 1px solid rgba(128, 128, 128, 0.15);
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
         margin: 10px 0;
     }
     </style>
