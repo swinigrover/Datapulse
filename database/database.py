@@ -68,19 +68,23 @@ class DatabaseManager:
             st.error(f"Error loading data from CSV: {e}")
             return False
     
-    def execute_query(self, query):
+    def execute_query(self, query, params=None):
         """
         Execute SQL query and return results as DataFrame
         
         Args:
             query: SQL query string
+            params: Optional parameter dict for the query
             
         Returns:
             DataFrame with query results
         """
         try:
             with self.engine.connect() as conn:
-                df = pd.read_sql_query(text(query), conn)
+                if params:
+                    df = pd.read_sql_query(text(query), conn, params=params)
+                else:
+                    df = pd.read_sql_query(text(query), conn)
             return df
         except SQLAlchemyError as e:
             st.error(f"Query execution error: {e}")
@@ -112,11 +116,11 @@ class DatabaseManager:
         
         if start_date:
             query += " AND o.order_date >= :start_date"
-            params['start_date'] = start_date
+            params['start_date'] = str(start_date)
         
         if end_date:
             query += " AND o.order_date <= :end_date"
-            params['end_date'] = end_date
+            params['end_date'] = str(end_date)
         
         if region:
             query += " AND o.region = :region"
@@ -130,7 +134,7 @@ class DatabaseManager:
             query += " AND c.segment = :segment"
             params['segment'] = segment
         
-        return self.execute_query(query)
+        return self.execute_query(query, params if params else None)
     
     def get_kpis(self, start_date=None, end_date=None, region=None, category=None, segment=None):
         """
@@ -141,11 +145,11 @@ class DatabaseManager:
         """
         query = """
         SELECT 
-            COUNT(DISTINCT order_id) as total_orders,
-            SUM(sales) as total_revenue,
-            SUM(profit) as total_profit,
-            COUNT(DISTINCT customer_id) as total_customers,
-            AVG(sales) as avg_order_value
+            COUNT(DISTINCT o.order_id) as total_orders,
+            SUM(o.sales) as total_revenue,
+            SUM(o.profit) as total_profit,
+            COUNT(DISTINCT o.customer_id) as total_customers,
+            AVG(o.sales) as avg_order_value
         FROM orders o
         INNER JOIN customers c ON o.customer_id = c.customer_id
         WHERE 1=1
@@ -155,11 +159,11 @@ class DatabaseManager:
         
         if start_date:
             query += " AND o.order_date >= :start_date"
-            params['start_date'] = start_date
+            params['start_date'] = str(start_date)
         
         if end_date:
             query += " AND o.order_date <= :end_date"
-            params['end_date'] = end_date
+            params['end_date'] = str(end_date)
         
         if region:
             query += " AND o.region = :region"
@@ -173,15 +177,15 @@ class DatabaseManager:
             query += " AND c.segment = :segment"
             params['segment'] = segment
         
-        df = self.execute_query(query)
+        df = self.execute_query(query, params if params else None)
         
-        if not df.empty:
+        if not df.empty and df.iloc[0]['total_orders'] is not None and df.iloc[0]['total_orders'] > 0:
             kpis = {
                 'total_orders': int(df.iloc[0]['total_orders']),
-                'total_revenue': float(df.iloc[0]['total_revenue']),
-                'total_profit': float(df.iloc[0]['total_profit']),
-                'total_customers': int(df.iloc[0]['total_customers']),
-                'avg_order_value': float(df.iloc[0]['avg_order_value'])
+                'total_revenue': float(df.iloc[0]['total_revenue'] or 0),
+                'total_profit': float(df.iloc[0]['total_profit'] or 0),
+                'total_customers': int(df.iloc[0]['total_customers'] or 0),
+                'avg_order_value': float(df.iloc[0]['avg_order_value'] or 0)
             }
             
             # Calculate profit margin
