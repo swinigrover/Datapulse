@@ -486,25 +486,7 @@ DataPulse/
 └── assets/                          # Static assets (future use)
 ```
 
-## 📸 Screenshots
 
-### Executive Overview
-*Placeholder: Dashboard showing KPI cards, revenue trend, regional sales*
-
-### Sales Analytics
-*Placeholder: Monthly/yearly trends, category performance, discount analysis*
-
-### Customer Analytics
-*Placeholder: Customer segmentation, CLV analysis, geographic distribution*
-
-### Product Analytics
-*Placeholder: Product performance, profitability scatter, category analysis*
-
-### SQL Insights
-*Placeholder: SQL query examples with explanations and results*
-
-### Business Recommendations
-*Placeholder: Automated insights with priority levels and action items*
 
 ## 🤝 Contributing
 
@@ -522,10 +504,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👨‍💻 Author
 
-**Your Name**
-- Portfolio: [yourportfolio.com]
-- LinkedIn: [yourlinkedin]
-- GitHub: [yourgithub]
+Swini Grover 
+- Portfolio: https://swini-grover-portfolio.vercel.app/
+- LinkedIn: https://www.linkedin.com/in/swinigrover/
+
 
 ## 🙏 Acknowledgments
 
@@ -535,7 +517,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Support
 
-For support, please open an issue in the GitHub repository or contact [your email].
+For support, please open an issue in the GitHub repository or contact swinigrover005@gmail.com .
 
 ---
 
